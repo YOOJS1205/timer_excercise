@@ -104,3 +104,11 @@
     margin-right: 5px;
     vertical-align: -2px;
 }
+
+.footer {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8596BF;
+}
