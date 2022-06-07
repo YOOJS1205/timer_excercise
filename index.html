@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div id="app">
+        <section class="header">
+            <img class="header-logo" src="./images/logo.png" alt="위니브 로고">
+        </section>
+        <article class="timer">
+            <h2 class="timer-title">TIMER</h2>
+            <div class="line"></div>
+            <div class="time">
+                <div class="time-text">
+                    <div class="hour-text">HRS</div>
+                    <div class="minute-text">MIN</div>
+                    <div class="second-text">SEC</div>
+                </div>
+                <div class="time-box">
+                    <div class="hour-box">00</div>
+                    <img src="./images/dot.png" alt="">
+                    <div class="minute-box">00</div>
+                    <img src="./images/dot.png" alt="">
+                    <div class="second-box">00</div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="start disabled" type="button">
+                    <img class="start-image" src="./images/icon-start-disabled.png" alt="">
+                    START
+                </button>
+                <button class="reset disabled" type="button">
+                    <img src="./images/icon-reset-disabled.png" alt="">
+                    RESET
+                </button>
+            </div>
+        </article>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
